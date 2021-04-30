@@ -1,5 +1,7 @@
 {% include header.md %}
 
+
+
 ## Introducing JavaScript
 
 - JavaScript was invented by Netscape in 1995
