@@ -21,7 +21,7 @@
 
 ## Grades
 
-Grades will be available on the Learning Hub, final marks are posted on https://my.bcit.ca
+Grades will be available on the Learning Hub, final marks are posted on [https://my.bcit.ca](https://my.bcit.ca)
 
 ### Assignments
 
