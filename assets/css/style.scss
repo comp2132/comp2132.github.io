@@ -3,6 +3,9 @@
 
 @import "{{ site.theme }}";
 
+$dblue: #174273;
+$mblue: #2d75c7;
+
 body .markdown-body {
   li {
     list-style: disc;
@@ -11,5 +14,13 @@ body .markdown-body {
   h1, h2 {
     margin-top: 1.5em !important;
     border-bottom: none;
+  }
+
+  h2 {
+    font-size: 1.7em;
+    color: $dblue;
+  }
+  h3 {
+    color: $mblue;
   }
 }
