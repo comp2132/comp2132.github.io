@@ -27,7 +27,7 @@
 
 ## Grades
 
-Grades will be available on the Learning Hub, final marks are posted on [https://my.bcit.ca](https://my.bcit.ca)
+Grades will be available on the Learning Hub, final marks are posted on <https://my.bcit.ca>
 
 ### Assignments
 
@@ -133,7 +133,7 @@ Emmet – <https://emmet.io>
 </html>
 ```
 
-In between the `<script>` and `</script>` tags, only JavaScript can appear. Do not put HTML.\
+In between the `<script>` and `</script>` tags, only JavaScript can appear. Do not put HTML.
 
 
 ```html
@@ -160,7 +160,7 @@ We can write JavaScript in the `<head>` section, or the `<body>` section, or in 
 
 Although the head section is often a great place to put JavaScript code, one browser behaviour needs to be considered first.
 
-The browser loads a page from top to bottom, and the `<head>` section gets loaded before any of the `<body>` section gets rendered. Because of this, JavaScript running in the `<head>` may not be able to target elements in the body.\
+The browser loads a page from top to bottom, and the `<head>` section gets loaded before any of the `<body>` section gets rendered. Because of this, JavaScript running in the `<head>` may not be able to target elements in the body.
 
 
 ```html
@@ -189,7 +189,7 @@ The browser loads a page from top to bottom, and the `<head>` section gets loade
 
 We can move the script _after_ the h1 tag, or we can _delay_ the script in the head using `window.onload`
 
-Moving the script after the tag:\
+Moving the script after the tag:
 
 
 ```html
@@ -208,7 +208,7 @@ Moving the script after the tag:\
 </html>
 ```
 
-Using `window.onload`:\
+Using `window.onload`:
 
 ```html
 <!DOCTYPE html>
@@ -230,7 +230,7 @@ Using `window.onload`:\
 
 ### External Scripts
 
-We can also put our JavaScript into an external file. __Note__: you can only load external scripts by using the _src_ attribute with a filename and path.\
+We can also put our JavaScript into an external file. __Note__: you can only load external scripts by using the _src_ attribute with a filename and path.
 
 
 ```html
@@ -247,7 +247,7 @@ We can also put our JavaScript into an external file. __Note__: you can only loa
 </html>
 ```
 
-Similarly, external JavaScript files can be delayed using the _defer_ attribute. Deferred scripts will begin downloading right away, but will not execute until the entire document is rendered. After the page is finished, all deferred external JavaScript files will execute in the same order in which they were declared.\
+Similarly, external JavaScript files can be delayed using the _defer_ attribute. Deferred scripts will begin downloading right away, but will not execute until the entire document is rendered. After the page is finished, all deferred external JavaScript files will execute in the same order in which they were declared.
 
 
 ```html
