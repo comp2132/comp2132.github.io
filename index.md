@@ -1,7 +1,7 @@
-# COMP 2132 - Web Development with Javascript
-
 * TOC
 {:toc}
+
+# COMP 2132 - Web Development with Javascript
 
 ## Assignment/Quiz Schedule
 
