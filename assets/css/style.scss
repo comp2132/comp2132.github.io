@@ -3,12 +3,13 @@
 
 @import "{{ site.theme }}";
 
-li {
-  list-style: disc;
-}
+body .markdown-body {
+  li {
+    list-style: disc;
+  }
 
-h1, h2 {
-  margin-top: 1.5em;
-  border-bottom: none;
+  h1, h2 {
+    margin-top: 1.5em !important;
+    border-bottom: none;
+  }
 }
-
